@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Core\\CRUD_HR.Core.csproj": {}
+    "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Web\\CRUD_HR.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Core\\CRUD_HR.Core.csproj": {
+    "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Web\\CRUD_HR.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Core\\CRUD_HR.Core.csproj",
-        "projectName": "CRUD_HR.Core",
-        "projectPath": "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Core\\CRUD_HR.Core.csproj",
+        "projectUniqueName": "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Web\\CRUD_HR.Web.csproj",
+        "projectName": "CRUD_HR.Web",
+        "projectPath": "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Web\\CRUD_HR.Web.csproj",
         "packagesPath": "C:\\Users\\m.azhdari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Core\\obj\\",
+        "outputPath": "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\m.azhdari\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,6 +51,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

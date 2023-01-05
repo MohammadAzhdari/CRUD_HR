@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CRUD_HR.Core.Entities
 {
-    public class ProductCategoryFeatureValue
+    public class ProductCategoryFeatureValue : BaseEntity
     {
+         
     }
 }

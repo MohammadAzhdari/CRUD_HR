@@ -8,6 +8,7 @@ namespace CRUD_HR.Core.Entities
 {
     public class ProductCategoryFeatureValue : BaseEntity
     {
-         
+        public string value { get; set; }
+        public ProductCategoryFeature ProductCategoryFeature { get; set; }
     }
 }

@@ -12,5 +12,6 @@ namespace CRUD_HR.Core.Entities
         [NotNull]
         public string Name { get; set; }
         public ICollection<ProductCategoryFeatureValue> ProductCategoryFeatureValues { get; set; }
+        public ProductCategoryFeatureEnumType ProductCategoryFeatureEnumType { get; set; }
     }
 }

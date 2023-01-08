@@ -21,7 +21,7 @@ namespace CRUD_HR.Infrastructure.Data
         public DbSet<ProductCategory> ProductCategory { get; set; }
         public DbSet<ProductCategoryFeature> ProductCategoryFeature { get; set; }
         public DbSet<ProductCategoryFeatureValue> ProductCategoryFeatureValue { get; set; }
-        public DbSet<ProductCategoryFeatureEnumType> ProductCategoryFeatureEnumType { get; set; }
+        public DbSet<ProductCategoryFeatureType> ProductCategoryFeatureType { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

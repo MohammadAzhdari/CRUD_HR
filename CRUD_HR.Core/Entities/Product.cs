@@ -16,5 +16,7 @@ namespace CRUD_HR.Core.Entities
         public bool IsActive { get; set; }
         [NotNull]
         public string ImagePath { get; set; }
+        public int CategoryId { get; set; }
+        public ProductCategory Category { get; set; }
     }
 }

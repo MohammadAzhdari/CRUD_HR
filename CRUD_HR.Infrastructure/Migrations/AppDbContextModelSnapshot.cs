@@ -38,10 +38,6 @@ namespace CRUDHR.Infrastructure.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ImagePath")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
 
@@ -142,6 +138,31 @@ namespace CRUDHR.Infrastructure.Migrations
                     b.ToTable("ProductCategoryFeatureValue");
                 });
 
+            modelBuilder.Entity("CRUD_HR.Core.Entities.ProductImage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("IsBanner")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Path")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ProductImage");
+                });
+
             modelBuilder.Entity("CRUD_HR.Core.Entities.Product", b =>
                 {
                     b.HasOne("CRUD_HR.Core.Entities.ProductCategory", "Category")
@@ -181,6 +202,22 @@ namespace CRUDHR.Infrastructure.Migrations
                         .IsRequired();
 
                     b.Navigation("ProductCategoryFeature");
+                });
+
+            modelBuilder.Entity("CRUD_HR.Core.Entities.ProductImage", b =>
+                {
+                    b.HasOne("CRUD_HR.Core.Entities.Product", "Product")
+                        .WithMany("Images")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("CRUD_HR.Core.Entities.Product", b =>
+                {
+                    b.Navigation("Images");
                 });
 
             modelBuilder.Entity("CRUD_HR.Core.Entities.ProductCategory", b =>

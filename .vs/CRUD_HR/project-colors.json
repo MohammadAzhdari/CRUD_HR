@@ -15,7 +15,17 @@
       "ProjectGuid": "64cc1566-570d-4183-9771-d2c02a2f9922",
       "DisplayName": "CRUD_HR.Core",
       "ColorIndex": 1
+    },
+    "e7afb759-29df-4964-8928-cb3242b210fe": {
+      "ProjectGuid": "e7afb759-29df-4964-8928-cb3242b210fe",
+      "DisplayName": "CRUD_HR.Infrastructure",
+      "ColorIndex": 2
+    },
+    "9a17b158-675e-46b1-8fd1-6cb72c6b83e8": {
+      "ProjectGuid": "9a17b158-675e-46b1-8fd1-6cb72c6b83e8",
+      "DisplayName": "CRUD_HR.Web",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 4
 }

@@ -1,11 +1,88 @@
 {
   "Version": 1,
-  "Hash": "YpGxCjwQppiCf3IkrDQM/pEE+pT+PBrlwUIcaxX2n8s=",
+  "Hash": "AewI40iTQ6JEG/T1j2VvwAlp+9JBBKsOPN1rlePgnZ0=",
   "Source": "CRUD_HR.Web",
   "BasePath": "_content/CRUD_HR.Web",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "CRUD_HR.Web\\wwwroot",
+      "Source": "CRUD_HR.Web",
+      "ContentRoot": "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Web\\wwwroot\\",
+      "BasePath": "_content/CRUD_HR.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Web\\wwwroot\\Images\\29f3274c-d271-4adc-85f2-9f64f4fc14ba.jpg",
+      "SourceId": "CRUD_HR.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Web\\wwwroot\\",
+      "BasePath": "_content/CRUD_HR.Web",
+      "RelativePath": "Images/29f3274c-d271-4adc-85f2-9f64f4fc14ba.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\29f3274c-d271-4adc-85f2-9f64f4fc14ba.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Web\\wwwroot\\Images\\542a4311-e79f-4cee-810e-2c892f135a67.jpg",
+      "SourceId": "CRUD_HR.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Web\\wwwroot\\",
+      "BasePath": "_content/CRUD_HR.Web",
+      "RelativePath": "Images/542a4311-e79f-4cee-810e-2c892f135a67.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\542a4311-e79f-4cee-810e-2c892f135a67.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Web\\wwwroot\\Images\\b7818d10-b085-4890-a693-89e472f3d0d5.jpg",
+      "SourceId": "CRUD_HR.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Web\\wwwroot\\",
+      "BasePath": "_content/CRUD_HR.Web",
+      "RelativePath": "Images/b7818d10-b085-4890-a693-89e472f3d0d5.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\b7818d10-b085-4890-a693-89e472f3d0d5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Web\\wwwroot\\Images\\bfe40d79-45b7-427b-81d4-5d16a9159aab.jpg",
+      "SourceId": "CRUD_HR.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Web\\wwwroot\\",
+      "BasePath": "_content/CRUD_HR.Web",
+      "RelativePath": "Images/bfe40d79-45b7-427b-81d4-5d16a9159aab.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\bfe40d79-45b7-427b-81d4-5d16a9159aab.jpg"
+    }
+  ]
 }

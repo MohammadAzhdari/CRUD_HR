@@ -14,9 +14,8 @@ namespace CRUD_HR.Core.Entities
         public int CodeNumber { get; set; }
         public string? Description { get; set; }
         public bool IsActive { get; set; }
-        [NotNull]
-        public string ImagePath { get; set; }
         public int CategoryId { get; set; }
         public ProductCategory Category { get; set; }
+        public ICollection<ProductImage> Images { get; set; }
     }
 }

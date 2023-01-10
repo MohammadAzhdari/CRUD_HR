@@ -1,3 +1,4 @@
+using CRUD_HR.Core.Interfaces;
 using CRUD_HR.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,6 +13,9 @@ builder.Services.AddSwaggerGen();
 
 var connectionString = builder.Configuration.GetConnectionString("Default");
 builder.Services.AddDbContext<AppDbContext>(option => option.UseSqlServer(connectionString));
+
+// Dependency Injection
+builder.Services.AddScoped<IRepository, EfRepository>();
 
 var app = builder.Build();
 

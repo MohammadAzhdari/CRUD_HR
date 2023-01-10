@@ -18,6 +18,7 @@ namespace CRUD_HR.Infrastructure.Data
         }
 
         public DbSet<Product> Product { get; set; }
+        public DbSet<ProductImage> ProductImage { get; set; }
         public DbSet<ProductCategory> ProductCategory { get; set; }
         public DbSet<ProductCategoryFeature> ProductCategoryFeature { get; set; }
         public DbSet<ProductCategoryFeatureValue> ProductCategoryFeatureValue { get; set; }

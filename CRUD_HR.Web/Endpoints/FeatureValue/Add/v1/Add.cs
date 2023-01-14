@@ -27,7 +27,13 @@ namespace CRUD_HR.Web.Endpoints.FeatureValue.Add.v1
 
             var result = await _repository.AddAsync(request);
 
-            return Ok(result);
+            AddFeatureValueResponse response = new()
+            {
+                Id = result.Id,
+                Name = result.value
+            };
+
+            return Ok(response);
         }
     }
 }

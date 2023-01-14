@@ -1,5 +1,6 @@
 using CRUD_HR.Core.Interfaces;
 using CRUD_HR.Infrastructure.Data;
+using CRUD_HR.Infrastructure.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +17,9 @@ builder.Services.AddDbContext<AppDbContext>(option => option.UseSqlServer(connec
 
 // Dependency Injection
 builder.Services.AddScoped<IRepository, EfRepository>();
+builder.Services.AddScoped<IProductCategoryFeatureRepository, ProductCategoryFeatureRepository>();
+builder.Services.AddScoped<IProductCategoryFeatureValueRepository, ProductCategoryFeatureValueRepository>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 var app = builder.Build();
 

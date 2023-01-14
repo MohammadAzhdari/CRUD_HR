@@ -1,0 +1,17 @@
+C:\Users\Mohammad\source\repos\CRUD_HR\CRUD_HR.Infrastructure\bin\Debug\net6.0\CRUD_HR.Infrastructure.deps.json
+C:\Users\Mohammad\source\repos\CRUD_HR\CRUD_HR.Infrastructure\bin\Debug\net6.0\CRUD_HR.Infrastructure.runtimeconfig.json
+C:\Users\Mohammad\source\repos\CRUD_HR\CRUD_HR.Infrastructure\bin\Debug\net6.0\CRUD_HR.Infrastructure.dll
+C:\Users\Mohammad\source\repos\CRUD_HR\CRUD_HR.Infrastructure\bin\Debug\net6.0\CRUD_HR.Infrastructure.pdb
+C:\Users\Mohammad\source\repos\CRUD_HR\CRUD_HR.Infrastructure\bin\Debug\net6.0\CRUD_HR.Core.dll
+C:\Users\Mohammad\source\repos\CRUD_HR\CRUD_HR.Infrastructure\bin\Debug\net6.0\CRUD_HR.Core.pdb
+C:\Users\Mohammad\source\repos\CRUD_HR\CRUD_HR.Infrastructure\obj\Debug\net6.0\CRUD_HR.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Mohammad\source\repos\CRUD_HR\CRUD_HR.Infrastructure\obj\Debug\net6.0\CRUD_HR.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohammad\source\repos\CRUD_HR\CRUD_HR.Infrastructure\obj\Debug\net6.0\CRUD_HR.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Mohammad\source\repos\CRUD_HR\CRUD_HR.Infrastructure\obj\Debug\net6.0\CRUD_HR.Infrastructure.AssemblyInfo.cs
+C:\Users\Mohammad\source\repos\CRUD_HR\CRUD_HR.Infrastructure\obj\Debug\net6.0\CRUD_HR.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Mohammad\source\repos\CRUD_HR\CRUD_HR.Infrastructure\obj\Debug\net6.0\CRUD_HR.Infrastructure.csproj.CopyComplete
+C:\Users\Mohammad\source\repos\CRUD_HR\CRUD_HR.Infrastructure\obj\Debug\net6.0\CRUD_HR.Infrastructure.dll
+C:\Users\Mohammad\source\repos\CRUD_HR\CRUD_HR.Infrastructure\obj\Debug\net6.0\refint\CRUD_HR.Infrastructure.dll
+C:\Users\Mohammad\source\repos\CRUD_HR\CRUD_HR.Infrastructure\obj\Debug\net6.0\CRUD_HR.Infrastructure.pdb
+C:\Users\Mohammad\source\repos\CRUD_HR\CRUD_HR.Infrastructure\obj\Debug\net6.0\CRUD_HR.Infrastructure.genruntimeconfig.cache
+C:\Users\Mohammad\source\repos\CRUD_HR\CRUD_HR.Infrastructure\obj\Debug\net6.0\ref\CRUD_HR.Infrastructure.dll

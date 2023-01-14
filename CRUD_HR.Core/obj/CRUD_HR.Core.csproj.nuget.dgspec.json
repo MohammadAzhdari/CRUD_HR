@@ -1,28 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Core\\CRUD_HR.Core.csproj": {}
+    "C:\\Users\\Mohammad\\source\\repos\\CRUD_HR\\CRUD_HR.Core\\CRUD_HR.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Core\\CRUD_HR.Core.csproj": {
+    "C:\\Users\\Mohammad\\source\\repos\\CRUD_HR\\CRUD_HR.Core\\CRUD_HR.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Core\\CRUD_HR.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Mohammad\\source\\repos\\CRUD_HR\\CRUD_HR.Core\\CRUD_HR.Core.csproj",
         "projectName": "CRUD_HR.Core",
-        "projectPath": "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Core\\CRUD_HR.Core.csproj",
-        "packagesPath": "C:\\Users\\m.azhdari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\m.azhdari\\source\\repos\\CRUD_HR\\CRUD_HR.Core\\obj\\",
+        "projectPath": "C:\\Users\\Mohammad\\source\\repos\\CRUD_HR\\CRUD_HR.Core\\CRUD_HR.Core.csproj",
+        "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mohammad\\source\\repos\\CRUD_HR\\CRUD_HR.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\m.azhdari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.borsa.ir/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,13 +38,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

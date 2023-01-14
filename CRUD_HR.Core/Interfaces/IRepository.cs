@@ -11,5 +11,6 @@ namespace CRUD_HR.Core.Interfaces
         public Task<T> GetAsync<T>(int id) where T : BaseEntity;
         public Task<T> GetAsync<T>(Expression<Func<T, bool>> spec) where T : BaseEntity;
         public Task<List<T>> ListAsync<T>(Expression<Func<T, bool>> spec) where T : BaseEntity;
+        public Task<List<T>> ListAsync<T>() where T : BaseEntity;
     }
 }

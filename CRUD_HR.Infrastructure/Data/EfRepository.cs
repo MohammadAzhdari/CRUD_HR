@@ -46,5 +46,9 @@ namespace CRUD_HR.Infrastructure.Data
         public async Task<List<T>> ListAsync<T>(Expression<Func<T, bool>> spec)
             where T : BaseEntity =>
             await _db.Set<T>().Where(spec).OrderByDescending(x => x.Id).ToListAsync();
+
+        public async Task<List<T>> ListAsync<T>()
+            where T : BaseEntity =>
+            await _db.Set<T>().OrderByDescending(x => x.Id).ToListAsync();
     }
 }

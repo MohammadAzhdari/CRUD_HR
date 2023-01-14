@@ -7,11 +7,11 @@ namespace CRUD_HR.Web.Endpoints.Category.Add.v1
 {
     [Route("api/v1/[controller]")]
     [ApiController]
-    public class Update : ControllerBase
+    public class Add : ControllerBase
     {
         private readonly IRepository _repository;
 
-        public Update(IRepository repository)
+        public Add(IRepository repository)
         {
             _repository = repository;
         }

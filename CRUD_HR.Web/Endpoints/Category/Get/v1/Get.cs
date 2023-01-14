@@ -1,7 +1,9 @@
 ﻿using CRUD_HR.Core.Entities;
 using CRUD_HR.Core.Interfaces;
+using CRUD_HR.Core.Utility;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 
 namespace CRUD_HR.Web.Endpoints.Category.Get.v1
 {
@@ -17,19 +19,35 @@ namespace CRUD_HR.Web.Endpoints.Category.Get.v1
         }
 
         [HttpGet("Category/{id:int}")]
-        public async Task<IActionResult> GetAsync([FromRoute]int id)
+        public async Task<IActionResult> GetAsync([FromRoute] int id)
         {
             var result = await _repository.GetAsync<ProductCategory>(id);
 
-            return Ok(result);
+            if (result is null)
+                return BadRequest();
+
+            GetCategoryResponse response = new()
+            {
+                Id = result.Id,
+                Name = result.Name,
+            };
+
+            return Ok(response);
         }
 
         [HttpGet("Category")]
         public async Task<IActionResult> GetAllAsync()
         {
-            //var result = await _repository.GetAsync<ProductCategory>();
+            var result = await _repository.ListAsync<ProductCategory>();
 
-           // return Ok(result);
+            var response = (from x in result
+                            select new GetCategoryResponse
+                            {
+                                Id = x.Id,
+                                Name = x.Name,
+                            }).ToList();
+
+            return Ok(response);
         }
     }
 }

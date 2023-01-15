@@ -21,7 +21,22 @@ builder.Services.AddScoped<IProductCategoryFeatureRepository, ProductCategoryFea
 builder.Services.AddScoped<IProductCategoryFeatureValueRepository, ProductCategoryFeatureValueRepository>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("policyOrigin", builder => {
+        builder.WithOrigins("*").AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+    });
+});
+
 var app = builder.Build();
+
+// global cors policy
+app.UseCors(x => x
+    .AllowAnyMethod()
+    .AllowAnyHeader()
+    .SetIsOriginAllowed(origin => true) // allow any origin
+    .AllowCredentials()); // allow credentials
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
